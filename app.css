@@ -1,0 +1,320 @@
+/*
+Typography such as font family, font-size, headings
+*/
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700|Lato:400,800,900");
+.items1 {
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #cacaca;
+  box-shadow: 0px 10px 24px rgba(194, 193, 193, 0.2);
+  display: flex;
+  justify-content: space-between;
+}
+.items1 .os-logo {
+  margin: 14px;
+  cursor: pointer;
+}
+.items1 .login-icon {
+  padding: 7px;
+  border-radius: 100%;
+  width: 45px;
+  background: #0ABAB5;
+  height: 45px;
+  margin-top: 10px;
+  margin-right: 80px;
+  cursor: pointer;
+  color: white;
+  font-size: 22px;
+}
+
+.main-card {
+  grid-column: 2/3;
+  width: 100%;
+  background: #FFFFFF;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  margin-left: 40px;
+  border: 1px solid #ABADAF;
+  box-shadow: 6px 12px 24px rgba(189, 189, 189, 0.14);
+  border-radius: 8px;
+}
+.main-card .main-heading {
+  background: #F9F9F9;
+  border: 1px solid #CCCCCC;
+  border-radius: 10px 10px 0px 0px;
+}
+.main-card .main-heading .search-bar {
+  display: flex;
+  margin-top: 10px;
+  position: relative;
+}
+.main-card .main-heading .search-bar .search-icon {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  outline: none !important;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 5px;
+  color: #B6B0B0;
+}
+.main-card .main-heading .search-bar .search-form {
+  position: relative;
+  margin-left: 30px;
+  width: 950px;
+  height: 34px;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  border-radius: 6px;
+}
+.main-card .main-heading .search-bar #search {
+  position: absolute;
+  top: 5px;
+  left: 38px;
+  font-size: 14px;
+  background: none;
+  font-size: 14px;
+  line-height: 16px;
+  color: #939393;
+  width: 900px;
+  height: 20px;
+  border: none;
+  appearance: none;
+  outline: none;
+}
+.main-card .main-heading .search-bar #search::-webkit-search-cancel-button {
+  appearance: none;
+}
+.main-card .main-heading .search-bar .reload {
+  margin: 7px 17px;
+  color: #939393;
+}
+.main-card .main-heading .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+}
+.main-card .main-heading .heading .title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #939393;
+}
+.main-card .main-heading .heading .title.title-1 {
+  padding-left: 50px;
+}
+.main-card .main-heading .heading .title.title-2 {
+  padding-left: 250px;
+}
+.main-card .main-heading .heading .title.title-4 {
+  padding-right: 50px;
+}
+.main-card .cards {
+  display: flex;
+  flex-direction: column;
+}
+.main-card .cards .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ABADAF;
+  border: 1px solid #CCCCCC;
+  padding: 15px;
+  align-items: center;
+}
+.main-card .cards .card .icon1 {
+  color: #FF7474;
+  font-size: 22px;
+}
+.main-card .cards .card .icon2 {
+  color: #3EE162;
+  font-size: 22px;
+}
+.main-card .cards .card .icon3 {
+  color: #FFD88D;
+  font-size: 22px;
+}
+.main-card .cards .card .name {
+  padding-left: 25px;
+}
+.main-card .cards .card .updated-by-1 {
+  padding-left: 290px;
+}
+.main-card .cards .card .updated-by-2 {
+  padding-left: 291px;
+}
+.main-card .cards .card .updated-by-3 {
+  padding-left: 200px;
+}
+.main-card .cards .card .updated-by-4 {
+  padding-left: 222px;
+}
+.main-card .cards .card .updated-by-5 {
+  padding-left: 222px;
+}
+.main-card .cards .card .date-uploaded {
+  padding-left: 160px;
+}
+.main-card .cards .card .shared-1 {
+  padding-left: 177px;
+  color: #3EE162;
+  font-size: 20px;
+  font-weight: 500;
+}
+.main-card .cards .card .shared-2 {
+  padding-left: 165px;
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+}
+.main-card .cards .card .shared-3 {
+  padding-left: 167px;
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+}
+.main-card .cards .card .shared-4 {
+  padding-left: 167px;
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+}
+.main-card .cards .card .shared-5 {
+  padding-left: 167px;
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+}
+.main-card .footer-pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 190px;
+  background: #F9F9F9;
+  border: 1px solid #CCCCCC;
+  border-radius: 0px 0px 10px 10px;
+  padding: 15px;
+  color: #ABADAF;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.main-card .footer-pagination .document-pages {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 60px;
+}
+.main-card .footer-pagination .document-pages .head {
+  padding-right: 15px;
+}
+.main-card .footer-pagination .document-pages .dropdown-icon {
+  padding-left: 10px;
+  cursor: pointer;
+}
+.main-card .footer-pagination .pagination {
+  display: flex;
+  justify-content: space-around;
+}
+.main-card .footer-pagination .pagination .current-page {
+  padding-right: 40px;
+  cursor: pointer;
+}
+.main-card .footer-pagination .pagination .left-page {
+  padding-left: 10px;
+  cursor: pointer;
+}
+.main-card .footer-pagination .pagination .right-page {
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.sidebar {
+  width: 100%;
+  height: 100%;
+}
+.sidebar .sidebar-list {
+  display: flex;
+  flex-direction: column;
+  grid-column: 1/2;
+  gap: 12px;
+  margin-left: 26px;
+}
+.sidebar .sidebar-list .list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  width: 309px;
+  height: 32px;
+  background: #F8F8F8;
+  border-radius: 6px 50px 50px 6px;
+  color: #898A8D;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+.sidebar .sidebar-list .list i {
+  padding: 0.7rem;
+  color: #898A8D;
+}
+.sidebar .sidebar-list .list.active {
+  background: #E7F8F8;
+  color: #0ABAB5;
+}
+.sidebar .sidebar-list .list.active i {
+  color: #0ABAB5;
+}
+
+.lecture-heading {
+  background-color: white;
+  font-size: 20px;
+  padding: 3rem 2rem;
+  font-weight: 400;
+  color: #33363B;
+  line-height: 120%;
+}
+
+.os-global-container {
+  background: #eee;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-template-columns: 100%;
+}
+
+.os-internal-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+
+body {
+  background: #ffffff;
+}
+
+/*# sourceMappingURL=app.css.map */
