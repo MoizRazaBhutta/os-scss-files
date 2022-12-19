@@ -1,0 +1,28 @@
+// Table settings
+
+$table-color: black;
+$table-background-color: white;
+
+$table-cell-border: 1px solid $grey-lighter;
+$table-cell-border-width: 0 0 2px !default;
+$table-cell-padding: 0.5em 0.75em !default;
+$table-cell-heading-color: $text-strong !default;
+
+$table-head-cell-border-width: 0 0 2px !default;
+$table-head-cell-color: $text-strong !default;
+
+$table-head-background-color: transparent !default;
+$table-body-background-color: transparent !default;
+$table-foot-background-color: transparent !default;
+
+$table-row-back-ground-color: $table-background-color;
+$table-row-hover-background-color: $grey-lighter !default;
+
+$table-row-active-background-color: $grey-light !default;
+$table-row-active-color: inherit !default;
+
+// Panel settings
+
+$block-spacing: 1.5rem !default;
+$panel-margin: $block-spacing;
+$panel-radius: $radius-large;

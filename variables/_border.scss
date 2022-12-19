@@ -1,0 +1,30 @@
+// Border
+$control-border-radius: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+$border: $grey-lighter !default;
+$border-hover: $grey-light !default;
+$border-light: $grey-lightest !default;
+$border-light-hover: $grey-light !default;
+
+$border-width: 1px;
+$border-style: solid;
+$border-standard: $border-width $border-style $border;
+
+$radius-small: 2px !default;
+$radius: 4px !default;
+$radius-medium: 5px;
+$radius-large: 6px !default;
+$radius-larger: 8px;
+$radius-rounded: 290486px !default;
+
+$tag-radius: 25px;
+
+
+// Box shadow
+
+$box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+  0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+
+$navbar-box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);

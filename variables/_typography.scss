@@ -1,0 +1,45 @@
+/*
+Typography such as font family, font-size, headings
+*/
+// :root {
+//   --base-size: 1.1em;
+//   --font-scale: 1.25;
+//   --h5: calc(var(--base-size) * var(--font-scale));
+//   --h4: calc(var(--h5) * var(--font-scale));
+//   --h3: calc(var(--h4) * var(--font-scale));
+//   --h2: calc(var(--h3) * var(--font-scale));
+//   --h1: calc(var(--h2) * var(--font-scale));
+//   --small: calc(var(--base-size) / var(--font-scale));
+// }
+$font: Arial, Helvetica, sans-serif;
+$font-size-small: 10px;
+$font-size: 16px;
+$font-size-mat: 20px;
+$font-size-medium: 25px;
+$title-font-size: 1.1rem;
+$line-height: 1.6em;
+
+$block-heading-size: 1.2em;
+
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Lato:400,800,900');
+// @import '~@angular/material/theming';
+
+// Typography
+$family-sans-serif: 'Nunito', Arial, Helvetica, sans-serif;
+$family-primary: $family-sans-serif;
+// $custom-typography: mat-typography-config(
+//   $font-family: $family-sans-serif,
+// );
+
+// Font
+$text-light: $grey-lighter;
+$text-strong: $grey-darker !default;
+
+$fw-standard: 400;
+$fw-light: 350;
+$fw-heavy: 480;
+$fw-bold: 600;
+$fw-bolder: 650;
+$fw-boldest: 800;
+
