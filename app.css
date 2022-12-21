@@ -1,13 +1,13 @@
 /*
 Typography such as font family, font-size, headings
 */
-@import url("https://fonts.googleapis.com/css?family=Nunito:400,700|Lato:400,800,900");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 .items1 {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   box-sizing: border-box;
   width: 100%;
   height: 70px;
-  border-bottom: 1px solid #cacaca;
+  border-bottom: 1px solid #eee;
   box-shadow: 0px 10px 24px rgba(194, 193, 193, 0.2);
   display: flex;
   justify-content: space-between;
@@ -32,19 +32,19 @@ Typography such as font family, font-size, headings
 .main-card {
   grid-column: 2/3;
   width: 100%;
-  background: #FFFFFF;
+  background: white;
   width: 60vw;
   display: flex;
   flex-direction: column;
   height: 600px;
   margin-left: 40px;
   border: 1px solid #ABADAF;
-  box-shadow: 6px 12px 24px rgba(189, 189, 189, 0.14);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   border-radius: 8px;
 }
 .main-card .main-heading {
   background: #F9F9F9;
-  border: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
   border-radius: 10px 10px 0px 0px;
 }
 .main-card .main-heading .search-bar {
@@ -53,7 +53,7 @@ Typography such as font family, font-size, headings
   position: relative;
 }
 .main-card .main-heading .search-bar .search-icon {
-  position: relative;
+  position: absolute;
   height: 20px;
   width: 20px;
   padding: 0;
@@ -65,13 +65,14 @@ Typography such as font family, font-size, headings
   margin-left: 20px;
   margin-top: 5px;
   color: #B6B0B0;
+  z-index: 2;
 }
 .main-card .main-heading .search-bar .search-form {
   position: relative;
   margin-left: 30px;
   width: 950px;
   height: 34px;
-  background: #FFFFFF;
+  background: white;
   border: 1px solid #EEEEEE;
   border-radius: 6px;
 }
@@ -204,7 +205,7 @@ Typography such as font family, font-size, headings
   justify-content: flex-end;
   margin-top: 190px;
   background: #F9F9F9;
-  border: 1px solid #CCCCCC;
+  border-top: 1px solid #CCCCCC;
   border-radius: 0px 0px 10px 10px;
   padding: 15px;
   color: #ABADAF;
@@ -281,7 +282,7 @@ Typography such as font family, font-size, headings
 
 .lecture-heading {
   background-color: white;
-  font-size: 20px;
+  font-size: 18px;
   padding: 3rem 2rem;
   font-weight: 400;
   color: #33363B;
@@ -310,7 +311,7 @@ Typography such as font family, font-size, headings
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "roboto";
+  font-family: "Roboto", Helvetica, sans-serif;
 }
 
 body {

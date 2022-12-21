@@ -19,6 +19,9 @@ $main-heading-bg: #F9F9F9;
 $border-all: #CCCCCC;
 $border-solid:#EEEEEE;
 $search-icon:#B6B0B0;
+$light-black: #33363b;
+
+$light-color: #ebebeb;
 // Color scheme
 $primary-blue: #1960ff;
 $primary-green: #3EE162;
@@ -29,6 +32,9 @@ $pastel-blue: #cfe2ff;
 $pastel-green: #d4edda;
 $pastel-red: #f8d7da;
 $pastel-yellow: #fff3cd;
+$primary-sea-blue: #0abab5;
+$primary-selected-blue:#b3eae8;
+$primary-selected-yellow: #fff3dc;
 
 $black-color: black;
 $dark: rgb(22, 28, 41);
@@ -67,18 +73,19 @@ $dark-blue: #6f7782;
 
 $yellow: #ffd54f;
 $yellow-light: #fff59d;
-$yellow-pale: #ffc107;
+$yellow-pale: #ffd88d;
 $yellow-dark: #c8a415;
 $yellow-bright: lighten($yellow, 12%);
 $yellow-pastel: #fff3cd;
 
+$light-border: #929292;
 $grey-font:#939393;
 $peach: hsl(44, 100%, 77%);
 $active-nav: #E7F8F8;
 $active-nav-color:#0ABAB5;
 $body-background-color: $grey-light;
 $el-bg-color: white;
-$white-color: white;
+$white-color: #FFFFFF;
 $purple-color: purple;
 $lightgrey-color: lightgrey;
 $lightgrey-sidenav:#F8F8F8;

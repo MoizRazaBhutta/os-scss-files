@@ -2,25 +2,24 @@
     grid-column: 2/3;
     width: 100%;
     
-    background: #FFFFFF;
+    background: $el-bg-color;
     width: calc(100vw - 40vw);
     display: flex;
     flex-direction: column;
     height: 600px;
     margin-left: 40px;
-    border: 1px solid #ABADAF;
-    box-shadow: 6px 12px 24px rgb(189 189 189 / 14%);
-    border-radius: 8px;
+    border: 1px solid $main;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;    border-radius: 8px;
     .main-heading{
-        background: #F9F9F9;
-        border: 1px solid #CCCCCC;
+        background: $main-heading-bg;
+        border-bottom: 1px solid $border-all;
         border-radius: 10px 10px 0px 0px;
     .search-bar{
         display: flex;
         margin-top: 10px;
         position: relative;
         .search-icon{
-            position: relative;
+            position: absolute;
                 height: 20px;
                 width: 20px;
                 padding: 0;
@@ -31,15 +30,16 @@
                 cursor: pointer;
                 margin-left: 20px;
                 margin-top: 5px;
-                color: #B6B0B0;
+                color: $search-icon;
+                z-index: 2;
         }
             .search-form {
                 position: relative;
                 margin-left: 30px;
                 width: 950px;
                 height: 34px;
-                background: #FFFFFF;
-                border: 1px solid #EEEEEE;
+                background: $el-bg-color;
+                border: 1px solid $border-solid;
                 border-radius: 6px;
               }
               #search{
@@ -50,7 +50,7 @@
                 background: none;
                 font-size: 14px;
                 line-height: 16px;
-                color: #939393;
+                color: $grey-font;
                 width: 900px;
                 height: 20px;
                 border: none;
@@ -63,7 +63,7 @@
               }
               .reload{
                 margin:7px 17px;
-                color: #939393;
+                color: $grey-font;
               }
                          
         }
@@ -79,7 +79,7 @@
                 font-size: 14px;
                 line-height: 16px;
 
-                color: #939393;
+                color: $grey-font;
                 &.title-1{
                     padding-left: 50px;
                 }
@@ -103,20 +103,20 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
-        color: #ABADAF;
-        border: 1px solid #CCCCCC;
+        color: $main;
+        border: 1px solid $border-all;
         padding: 15px;
         align-items: center;
         .icon1{
-            color: #FF7474;
+            color:$primary-light-red;
             font-size: 22px;
         }
         .icon2{
-            color: #3EE162;
+            color: $primary-green;
             font-size: 22px;
         }
         .icon3{
-            color: #FFD88D;
+            color: $primary-yellow;
             font-size: 22px;
         }
         .name{
@@ -142,31 +142,31 @@
         }
         .shared-1{
             padding-left: 177px;
-            color: #3EE162;
+            color: $primary-green;
             font-size: 20px;
             font-weight: 500;
         }
         .shared-2{
             padding-left: 165px;
-            color: red;
+            color: $primary-red;
             font-size: 20px;
             font-weight: 500;
         }
         .shared-3{
             padding-left: 167px;
-            color: red;
+            color: $primary-red;
             font-size: 20px;
             font-weight: 500;
         }
         .shared-4{
             padding-left: 167px;
-            color: red;
+            color: $primary-red;
             font-size: 20px;
             font-weight: 500;
         }
         .shared-5{
             padding-left: 167px;
-            color: red;
+            color: $primary-red;
             font-size: 20px;
             font-weight: 500;
         }
@@ -178,11 +178,11 @@
         display: flex;
         justify-content: flex-end;
         margin-top: 190px;
-        background: #F9F9F9;
-        border: 1px solid #CCCCCC;
+        background: $main-heading-bg;
+        border-top: 1px solid $border-all;
         border-radius: 0px 0px 10px 10px;
         padding: 15px;
-        color: #ABADAF;
+        color: $main;
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;

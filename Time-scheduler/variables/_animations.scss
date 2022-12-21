@@ -1,0 +1,18 @@
+// Animations
+$speed-fast: 500 !default;
+$speed-med: 0.2s !default;
+$easing: ease-out !default;
+
+$transition-ease-default: $speed-med $easing;
+$transition-ease-fast: $speed-fast $easing;
+
+// Page Loader Animation
+$spinner-width:           2rem !default;
+$spinner-height:          $spinner-width !default;
+$spinner-vertical-align:  -.125em !default;
+$spinner-animation-speed: .75s !default;
+
+// $primary-blue: #1960ff;
+// $primary-green: rgb(10, 186, 181);
+// $primary-red: #f59399;
+// $primary-yellow: hsl(44, 100%, 77%);

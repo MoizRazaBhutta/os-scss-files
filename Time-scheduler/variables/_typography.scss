@@ -11,7 +11,7 @@ Typography such as font family, font-size, headings
 //   --h1: calc(var(--h2) * var(--font-scale));
 //   --small: calc(var(--base-size) / var(--font-scale));
 // }
-$font: 'Roboto', Helvetica, sans-serif;
+$font: Arial, Helvetica, sans-serif;
 $font-size-small: 10px;
 $font-size: 16px;
 $font-size-mat: 20px;
@@ -26,7 +26,7 @@ $block-heading-size: 1.2em;
 // @import '~@angular/material/theming';
 
 // Typography
-$family-sans-serif: 'Nunito', Arial, Helvetica, sans-serif;
+$family-sans-serif: 'Roboto', Arial, Helvetica, sans-serif;
 $family-primary: $family-sans-serif;
 // $custom-typography: mat-typography-config(
 //   $font-family: $family-sans-serif,

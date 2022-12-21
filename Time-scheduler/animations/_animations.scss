@@ -1,0 +1,25 @@
+@import "./list-loader";
+@import "./page-loader";
+
+
+
+@keyframes anim1 {
+    0% {
+      left: 0px;
+      top: 0px;
+    }
+    100% {
+      left: -100px;
+      top: 0px;
+    }
+  }
+  @keyframes anim2 {
+    0% {
+      left: 0px;
+      top: 0px;
+    }
+    100% {
+      left: 100px;
+      top: 0px;
+    }
+  }
